@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs"
+    Inherits="SBSPMS_Web.Theme.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            height: 184px;
+        }
+        .style3
+        {
+            width: 194px;
+        }
+        .style5
+        {
+            width: 194px;
+            height: 20px;
+        }
+        .style6
+        {
+            height: 20px;
+        }
+        .style7
+        {
+            height: 4px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table style="width:100%;">
+        <tr>
+            <td class="style5">
+                </td>
+            <td class="style6">
+                </td>
+            <td class="style6">
+                </td>
+        </tr>
+        <tr>
+            <td class="style3">
+                <asp:TreeView ID="TreeView1" runat="server" Width="205px">
+                </asp:TreeView>
+            </td>
+            <td colspan="2">
+                <table style="width: 100%; height: 368px;">
+                    <tr>
+                        <td class="style7">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="style2">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="style3">
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

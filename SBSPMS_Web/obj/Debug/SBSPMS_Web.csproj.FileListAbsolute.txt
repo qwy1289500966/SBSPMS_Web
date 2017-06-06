@@ -1,0 +1,4 @@
+D:\TEST\SBSPMS_Web\SBSPMS_Web\bin\SBSPMS_Web.dll
+D:\TEST\SBSPMS_Web\SBSPMS_Web\bin\SBSPMS_Web.pdb
+D:\TEST\SBSPMS_Web\SBSPMS_Web\obj\Debug\SBSPMS_Web.dll
+D:\TEST\SBSPMS_Web\SBSPMS_Web\obj\Debug\SBSPMS_Web.pdb
